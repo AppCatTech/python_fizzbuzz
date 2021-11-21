@@ -1,0 +1,26 @@
+Test Driven Development - Tdd
+    Red - Write just enough test code to have a valid failing test
+    Green - Implement functionality specified in test
+    Refactor - Improve structure without changes to functionality.
+
+    Todo List: (Not usually mentioned...)
+        Part of what Test Driven development does for us,
+        is that it allows us to keep only one thing at a time in our heads.
+        For example...
+            At one time we are writing a test to specify correct behavior.
+            After than we focus only on writing the functionality needed to pass the test...
+            At last we improve design. One thing at a time
+
+        The todo list helps in the same way.
+
+        As we get ideas, or think of things, we jot them down.  This helps us focus too.
+
+************************************
+
+What is Fizz Buzz?
+    Write a program that prints the numbers from 1 to 100.
+    But for multiples of three print “Fizz” instead of the number
+    and for the multiples of five print “Buzz”.
+    For numbers which are multiples of both three and five print “FizzBuzz”.
+
+    source: https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/
