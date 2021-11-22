@@ -20,15 +20,23 @@ class FizzBuzz:
 
 
 if __name__ == '__main__':
+    import sys
     from writers.console_writer import ConsoleWriter
     from writers.file_writer import FileWriter
 
-    # writer = FileWriter('fizzbuzz_results')
-    writer = ConsoleWriter()
+    args = sys.argv[1:]
+
+    if args[0] == 'file':
+        writer = FileWriter('fizzbuzz_results')
+    else:
+        writer = ConsoleWriter()
+
+    start = int(args[1])
+    length = int(args[2])
 
     FizzBuzz(
         writer=writer
     ).run(
-        start=1,
-        length=100,
+        start=start,
+        length=length,
     )

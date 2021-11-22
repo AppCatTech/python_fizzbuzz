@@ -33,5 +33,3 @@ class TestWriter:
 
     def write(self, message):
         self.messages.append(message)
-
-
